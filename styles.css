@@ -46,6 +46,11 @@ header {
   font-weight: 700;
 }
 
+.logo img {
+  max-width: 100%;
+  border-radius: 12px;
+  object-fit: cover;
+}
 .brand h1 {
   margin: 0;
   font-size: 20px;
