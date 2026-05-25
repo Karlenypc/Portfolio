@@ -8,6 +8,7 @@
 
   <link rel="stylesheet" href="styles.css" />
 </head>
+
 <body>
   <div class="container">
     <!-- ===== HEADER ===== -->
@@ -16,100 +17,370 @@
         <div class="logo">
           <img src="assets/IMG_61111.jpg" alt="Foto Personal" />
         </div>
+
         <div>
           <h1>Karleny Pérez Calderón</h1>
-          <div class="small">Computer Systems Engineering Student | Passionate about Data Analysis & Frontend Development</div>
+          <div class="small">Systems Engineer | Data Analyst | Business Intelligence </div>
         </div>
       </div>
+
       <nav>
-        <a href="#proyectos">Power BI Projects</a>
+        <a href="#data-projects">Data Projects</a>
+        <a href="#technical-projects">Technical Experience</a>
         <a href="#contacto">Contact</a>
+
+        <a href="assets/Curriculum Vitae English.pdf"
+          class="nav-cv-btn"
+          download>
+          Download CV
+        </a>
       </nav>
     </header>
 
     <!-- ===== HERO ===== -->
     <section class="hero">
+      <div class="hero-banner">
+        <img src="assets/PersonalBanner.png" alt="Banner de presentación" />
+      </div>
+
       <div class="hero-content">
         <div class="roles">
-          Jr. Data Analyst | Power BI · Visualization · SQL · Data Storytelling
+          Power BI • SQL • Dashboard Design • Data Storytelling
         </div>
+
         <h2>
-          Transforming data into clear and actionable insights for decision-making.
+          📊 Transforming raw data into clear, strategic, and actionable business insights.
         </h2>
+
         <p class="small">
-          Advanced Computer Systems Engineering student — Experienced in Power BI, data modeling, DAX, SQL, storytelling, and business-oriented visualizations. Here you’ll find some of my featured data analysis projects. I also invite you to explore my GitHub profile, where you can discover my other world — development projects 🚀
+          Systems Engineer and aspiring Data Analyst focused on transforming complex data into intuitive and business-driven insights through Power BI, SQL, and analytical storytelling.
+          This portfolio showcases interactive dashboards and data projects centered on customer behavior, business performance, and decision-oriented analytics. 
         </p>
-        <div class="buttons">
-          <a class="btn" href="assets/English-Technical-Resume.pdf" target="_blank" rel="noopener">Download my CV</a>
-          <a class="btn secondary" href="https://github.com/Karlenypc" target="_blank" rel="noopener">View my GitHub Profile</a>
-        </div>
-      </div>
-      <div class="hero-banner">
-        <img src="assets/TemporaryImage1.png" alt="Banner de presentación" />
       </div>
     </section>
 
     <!-- ===== PROJECTS ===== -->
-    <section id="proyectos" class="projects">
-      <h2> Featured Projects </h2>
+    <section id="data-projects" class="projects">
+      <h2> Featured Data Projects </h2>
       <p class="small">
-        Explore my interactive dashboards and download them in .pbix format
+        Interactive Power BI dashboards focused on customer behavior, business performance, and strategic analytics.
       </p>
 
       <!-- Project card 1 -->
       <div class="project-card">
-        <h3>Dashboard 1 – Cloud Workload Analysis</h3>
-        <div class="carousel" id="carousel1">
-          <div class="carousel-track">
-            <div class="carousel-item"><img src="assets/Cloud Workload Page 1 Preview.png" alt="Dashboard preview 1"></div>
-            <div class="carousel-item"><img src="assets/Cloud Workload Page 2 Preview.png" alt="Dashboard preview 2"></div>
-            <div class="carousel-item"><img src="assets/Cloud Workload Page 3 Preview.png" alt="Dashboard preview 3"></div>
-            <div class="carousel-item"><img src="assets/Cloud Workload Page 4 Preview.png" alt="Dashboard preview 4"></div>
+
+        <div class="project-content">
+
+          <div class="project-text">
+
+            <h3>Customer Churn & Revenue Risk Analysis</h3>
+
+            <p class="project-overview">
+              Interactive Power BI dashboard designed to analyze customer churn patterns, revenue risk exposure, and retention opportunities through behavioral, geographic, and financial analysis.
+            </p>
+
+            <div class="tech-stack">
+              <span>Power BI</span>
+              <span>SQL</span>
+              <span>DAX</span>
+              <span>Data Storytelling</span>
+            </div>
+
+            <div class="case-study">
+
+              <div class="case-block">
+                <h4>Business Goal</h4>
+                <p>
+                  Identify the main factors influencing customer churn and uncover strategic opportunities to improve customer retention, reduce revenue loss, and support business decision-making.
+                </p>
+              </div>
+
+              <div class="case-study-section">
+                <h4>Analytical Walkthrough</h4>
+
+                <div class="analysis-block">
+                  <h5>Geographic Risk Analysis</h5>
+                  <p>
+                    The analysis begins by identifying churn concentration across California cities.
+                    San Diego and Los Angeles emerge as the highest-risk regions, showing the strongest combination of customer churn and revenue exposure.
+                  </p>
+                </div>
+
+                <div class="analysis-block">
+                  <h5>Customer Behavior Analysis</h5>
+                  <p>
+                    Behavioral analysis reveals that churn is significantly higher among month-to-month contracts and newer customers, while long-tenure customers demonstrate stronger retention patterns over time.
+                  </p>
+                </div>
+
+                <div class="analysis-block">
+                  <h5>Revenue & Financial Exposure</h5>
+                  <p>
+                    Financial analysis estimates over $5.7M in potential revenue exposure, with month-to-month customers representing the highest financial risk segment.
+                  </p>
+                </div>
+
+                <div class="analysis-block">
+                  <h5>Churn Drivers & Retention Strategy</h5>
+                  <p>
+                    The final stage identifies competitor influence as primary churn driver, while protection-related services demonstrate stronger retention performance among subscribed customers.
+                  </p>
+                </div>
+              </div>
+
+              <div class="case-block">
+                <h4>✦ Key Insights</h4>
+                <ul>
+                  <li>San Diego and Los Angeles present the highest churn concentration and revenue exposure.</li>
+                  <li>Month-to-month contracts show significantly higher churn risk.</li>
+                  <li>New customers exhibit the weakest retention rates.</li>
+                  <li>Protection-related services correlate with stronger customer retention.</li>
+                  <li>Customers in higher pricing tiers demonstrate greater churn sensitivity.</li>
+                </ul>
+              </div>
+
+              <div class="case-block">
+                <h4>💡 Strategic Recommendations</h4>
+                <ul>
+                  <li>Strengthen retention campaigns for high-risk month-to-month customers.</li>
+                  <li>Promote protection-related services through bundled offerings.</li>
+                  <li>Optimize pricing strategies for mid-to-high pricing segments.</li>
+                  <li>Position entertainment services as complementary value drivers rather than retention anchors.</li>
+                  <li>Improve competitive differentiation through customer experience and value perception initiatives.</li>
+                </ul>
+              </div>
+
+            </div>
+
           </div>
-          <button class="prev" onclick="moveSlide('carousel1', -1)">&#10094;</button>
-          <button class="next" onclick="moveSlide('carousel1', 1)">&#10095;</button>
+
+          <div class="project-image">
+            <img src="assets/Churn Dashboard Collage.png" alt="Customer Churn Dashboard Preview">
+          </div>
+
         </div>
-        <a href="assets/Cloud Workload Analysis.pbix" class="btn" download>Download .pbix</a>
+
       </div>
 
+        
       <!-- Project card 2 -->
       <div class="project-card">
-        <h3>Dashboard 2 – Spotify Streaming Insights</h3>
-        <div class="single-image">
-          <img src="assets/Spotify Dashboard Preview.png" alt="Dashboard 2 preview" />
+
+        <div class="project-content">
+
+          <div class="project-text">
+
+            <h3>Spotify Streaming Performance Dashboard</h3>
+
+            <p class="project-overview">
+              Interactive Spotify analytics dashboard focused on streaming performance, track popularity, release trends, and music engagement insights through dynamic Power BI visualizations.
+            </p>
+
+            <div class="tech-stack">
+              <span>Power BI</span>
+              <span>DAX</span>
+              <span>Data Visualization</span>
+              <span>Dashboard Design</span>
+            </div>
+
+            <div class="case-study">
+
+              <div class="case-block">
+                <h4>Business Goal</h4>
+                <p>
+                  Design an interactive music analytics dashboard capable of exploring streaming performance, track popularity, artist metrics, and engagement patterns through visually compelling storytelling.
+                </p>
+              </div>
+
+              <div class="case-study-section">
+                <h4>Analytical Walkthrough</h4>
+
+                <div class="analysis-block">
+                  <h5>Streaming Performance Analysis</h5>
+                  <p>
+                    The dashboard highlights the most streamed tracks and compares their performance against average platform streaming benchmarks.
+                  </p>
+                </div>
+
+                <div class="analysis-block">
+                  <h5>Track & Artist Insights</h5>
+                  <p>
+                    Users can dynamically explore artist performance, release dates, track characteristics, and popularity metrics through interactive filters and KPI cards.
+                  </p>
+                </div>
+
+                <div class="analysis-block">
+                  <h5>Music Trend Visualization</h5>
+                  <p>
+                    Temporal visualizations reveal release activity trends and streaming distribution patterns across different years and tracks.
+                  </p>
+                </div>
+
+                <div class="analysis-block">
+                  <h5>Dashboard Experience & Design</h5>
+                  <p>
+                    The project emphasizes immersive dashboard aesthetics, combining storytelling, modern UI design, and interactive navigation to enhance user engagement.
+                  </p>
+                </div>
+
+              </div>
+
+              <div class="case-block">
+                <h4>✦ Key Insights</h4>
+                <ul>
+                  <li>Blinding Lights emerges as the top streaming track in the dataset.</li>
+                  <li>Track popularity distribution shows strong concentration among top-ranked songs.</li>
+                  <li>Streaming activity increases significantly in recent release years.</li>
+                  <li>Interactive filtering improves exploration of artist and track-level performance.</li>
+                  <li>Dashboard aesthetics and layout enhance analytical readability and storytelling.</li>
+                </ul>
+              </div>
+
+            </div>
+
+          </div>
+
+          <div class="project-image">
+            <img src="assets/Spotify Dashboard Preview.png" alt="Spotify Dashboard Preview">
+          </div>
+
         </div>
-        <a href="assets/Spotify Dashboard.pbix" class="btn" download>Download .pbix</a>
+
       </div>
+
+    </section>
+
+    <section id="technical-projects" class="technical-projects">
+
+      <h2>Additional Technical Experience</h2>
+
+      <!-- SQL PROJECT -->
+
+      <div class="tech-project-card">
+
+        <div class="tech-project-text">
+
+          <h3>SQL Database System Design</h3>
+
+          <p class="project-overview">
+            Designed and developed a complete relational database solution for a real nonprofit organization using SQL Server, Microsoft Access, and Transact-SQL. The system included database architecture, stored procedures, data normalization, and user-friendly Access forms connected through ODBC integration to enable non-technical staff to manage operational data efficiently.
+          </p>
+
+          <div class="tech-stack">
+            <span>SQL Server</span>
+            <span>Transact-SQL</span>
+            <span>Microsoft Access</span>
+            <span>VBA</span>
+          </div>
+
+          <div class="case-block">
+
+            <h4>Technical Scope</h4>
+
+            <ul>
+              <li>Relational database modeling, schema architecture, and normalization processes.</li>
+              <li>Creation of tables, relationships, constraints, and integrity management.</li>
+              <li>Development of SQL queries, stored procedures, and database functions using Transact-SQL.</li>
+              <li>Implementation of operational forms and administrative interfaces using Microsoft Access and VBA.</li>
+              <li>ODBC integration between Microsoft Access and SQL Server for centralized data management.</li>
+              <li>Designed user-oriented workflows to allow non-technical staff to interact with the system efficiently.</li>
+            </ul>
+
+            <a href="assets/Database_Recommendation_Letter.pdf"
+              target="_blank"
+              class="recommendation-link">
+              View Technical Recommendation →
+            </a>
+
+          </div>
+
+        </div>
+
+       <div class="tech-image">
+        <img src="assets/FBB_Diagram.png" alt="SQL Database Diagram">
+      </div>
+
+      </div>
+
+      <!-- PTO PROJECT -->
+
+      <div class="tech-project-card">
+
+        <div class="tech-project-text">
+
+          <h3>Enterprise Development Internship Project</h3>
+
+          <p class="project-overview">
+            Developed a PTO Calendar module for an internal ERP system during a professional internship in a real enterprise environment using C#, .NET 8, and Windows Forms. The system was designed to manage employee time-off requests, calendar event tracking, historical records, and operational workflows through a structured desktop application integrated with backend business logic and nested JSON data handling.
+          </p>
+
+          <div class="tech-stack">
+            <span>C#</span>
+            <span>.NET 8</span>
+            <span>Windows Forms</span>
+            <span>GitFlow</span>
+          </div>
+
+          <div class="case-block">
+
+            <h4>Technical Scope</h4>
+
+            <ul>
+              <li>Full-stack desktop application development using C# and .NET 8.</li>
+              <li>Implementation of layered architecture for backend and frontend separation.</li>
+              <li>Development of CRUD operations for PTO event management and employee requests.</li>
+              <li>Historical tracking and filtering of employee records across years.</li>
+              <li>Management of nested JSON structures for backend data handling and integration.</li>
+              <li>Interactive calendar-based interface built with Windows Forms.</li>
+              <li>Collaborative enterprise development workflow using GitFlow version control practices.</li>
+            </ul>
+
+            <a href="assets/Carta de Recomendación.pdf"
+              target="_blank"
+              class="recommendation-link">
+              View Technical Recommendation (Spanish) →
+            </a>
+
+          </div>
+
+        </div>
+
+        <div class="tech-image">
+          <img src="assets/CalendarMainInterface.png" alt="PTO Calendar Module">
+        </div>
+
+      </div>
+
     </section>
 
     <!-- ===== CONTACT ===== -->
     <footer id="contacto">
-      <div>
-        <div style="font-weight:600">Contact</div>
-        <div class="small">Mobile: <a href="tel:+50683207722">+506 8320 7722</a></div>
-        <div class="small">Email: <a href="mailto:Karlenypc99@gmail.com">Karlenypc99@gmail.com</a></div>
-        <div class="small">
-          LinkedIn: <a href="https://www.linkedin.com/in/karleny-perez99/" target="_blank" rel="noopener">Profile</a> · 
-          GitHub: <a href="https://github.com/Karlenypc" target="_blank" rel="noopener">Karlenypc</a>
+
+      <div class="footer-left">
+        <h3>Let's Connect</h3>
+
+        <p>
+          Open to junior data analyst opportunities, collaborative projects,
+          and business intelligence roles.
+        </p>
+
+        <div class="footer-links">
+          <a href="mailto:Karlenypc99@gmail.com">Email</a>
+          <a href="tel:+50683207722">
+            +506 8320 7722
+          </a>
+          <a href="https://www.linkedin.com/in/karleny-perez99/" target="_blank">LinkedIn</a>
+          <a href="https://github.com/Karlenypc" target="_blank">GitHub</a>
         </div>
       </div>
-      <div class="small">Made with ❤️ by Karleny Pérez</div>
+
+      <div class="footer-right">
+        <p>Designed & Built with ❤️ by Karleny Pérez</p>
+      </div>
+
     </footer>
+
   </div>
 
-  <!-- ===== JS Carrusel ===== -->
-  <script>
-    function moveSlide(carouselId, direction) {
-      const carousel = document.getElementById(carouselId);
-      const track = carousel.querySelector('.carousel-track');
-      const items = carousel.querySelectorAll('.carousel-item');
-      const total = items.length;
-      let index = parseInt(carousel.getAttribute('data-index')) || 0;
-
-      index = (index + direction + total) % total;
-      track.style.transform = `translateX(-${index * 100}%)`;
-      carousel.setAttribute('data-index', index);
-    }
-  </script>
 </body>
 </html>
